@@ -14,7 +14,7 @@ import RootComponent from './app/RootComponent';
 const cache = new InMemoryCache();
 
 const client = new ApolloClient({
-  uri: 'http://192.168.43.39:8000/graphql',
+  uri: 'https://graphqltr.herokuapp.com/graphql',
   cache,
   defaultOptions: {watchQuery: {fetchPolicy: 'cache-and-network'}},
 });
